@@ -4,6 +4,6 @@ title = 'About'
 comments = false
 +++
 
-Hello, my name is Henri and I'm a developer.
-I focus mainly on Java and Spring boot stack and I'll be writing on
+Hello, my name is Henri, and I'm a developer.
+I focus mainly on Java and Spring boot stack, and I'll be writing on
 this website about my technical experiences.

@@ -2,8 +2,21 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Henri blog'
 
-theme = 'ananke'
+theme = 'beautifulhugo'
+
+[params]
+  mainSections = ["posts"]
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
